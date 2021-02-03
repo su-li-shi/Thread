@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Colletion" />
+        <module name="Model" />
+        <module name="Decorate" />
+        <module name="Reflect" />
+        <module name="Stratege" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Colletion" target="1.5" />
+      <module name="Decorate" target="6" />
+      <module name="Model" target="8" />
+      <module name="Reflect" target="1.5" />
+      <module name="Stratege" target="6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
